@@ -1,0 +1,6 @@
+CREATE TABLE `messages` (
+  `id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  `author` text DEFAULT 'Anonymous' NOT NULL,
+  `body` text NOT NULL,
+  `created_at` text DEFAULT (datetime('now')) NOT NULL
+);
